@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>School Homepage</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="script" href="index.js">
 </head>
 <body>
-    
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="image/school-logo.png" alt="School Logo">
+        </div>
+        <div class="navbar-name">
+            <h1>ABC School</h1>
+        </div>
+        <div class="navbar-icon">
+            <button class="menu-icon" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+            <div class="menu" id="menu">
+                <a href="#login">Login</a>
+                <a href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slideshow Section -->
+    <section class="slideshow">
+        <div class="slides">
+            <img src="image/cr1.png" alt="School Image 1">
+            <img src="image/cr3.jpeg" alt="School Image 2">
+            <img src="image/ot2.png" alt="School Image 3">
+        </div>
+    </section>
+
+    <!-- Latest Updates Section -->
+    <section class="updates">
+        <h2>Latest Updates</h2>
+        <div class="updates-marquee">
+            <p>Update 1: School Reopening on September 20th.</p>
+            <p>Update 2: New Admissions Open.</p>
+            <p>Update 3: Parent-Teacher Meeting on October 5th.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 ABC School. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
